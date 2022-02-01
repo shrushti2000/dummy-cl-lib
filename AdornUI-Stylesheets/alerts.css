@@ -1,0 +1,32 @@
+.alert-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
+  border-radius: 5px;
+  font-family: "EB Garamond", serif;
+}
+.close-alert {
+  float: right;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+.alert-success {
+  background-color: #b1e693;
+}
+.alert-danger {
+  background-color: #fffda2;
+}
+.alert-warning {
+  background-color: #fd5959;
+}
+.alert-primary {
+  background-color: #94d2e6;
+}
+.alert-secondary {
+  background-color: #dad0c2;
+}
