@@ -27,6 +27,14 @@ font-weight: bold;
     border:1px solid lightgray;
     border-radius:5px ;
 }
+.component-container-hz{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    border:1px solid lightgray;
+    border-radius:5px ;
+    align-items: center;
+}
 iframe{
     margin: 1rem;
 }
